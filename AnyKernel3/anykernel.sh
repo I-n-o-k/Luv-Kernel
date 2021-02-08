@@ -50,15 +50,13 @@ if [ -d "/system_root/system/" -a -d "/system_root/etc/" -a -e "/system_root/ini
    ui_print "- custom tuneble cpu governor and init.d supporting ";
    ui_print "- Dev : @inok53"
    ui_print "- Changelog";
-   ui_print "- OC A53 Cores to 1.61Ghz";
-   ui_print "- OC Gpu to 710Mhz"
-   ui_print "- Switch To Dynamic FPS 61-62hz";
+   ui_print "- Disable Control Mask cuz useless for my kernel";
+   ui_print "- Switch back to static frame rate";
    ui_print "- Fine Tuned Mitigation Freq and Temp";
    ui_print "- Add Devfreq Boosting Driver";
-   ui_print "- Fine Tuned Voltages and Clocks(CPU/GPU/DDR bus)";
+   ui_print "- Reduce turn on display";
+   ui_print "- fix performance back logs and memory corupt";
    ui_print "- New Custom Tuned Cpu Governor";
-   ui_print "- Disable a lot of debugging";
-   ui_print "- Disable Tracing as much as possible";
    ui_print "- Can't support thermal-engine (please dont use any thermal mod)";
    ui_print "- Remove wireguard on kernel";
    echo " " >> /tmp/recovery.log;

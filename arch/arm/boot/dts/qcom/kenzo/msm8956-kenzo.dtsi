@@ -864,6 +864,8 @@
 		qcom,limit-temp = <60>;
 		qcom,temp-hysteresis = <100>;
 		qcom,freq-step = <2>;
+                qcom,freq-control-mask = <0>;
+                qcom,core-control-mask = <0>;
 		qcom,core-limit-temp = <80>;
 		qcom,core-temp-hysteresis = <20>;
 		qcom,mitigation-profile-enable;

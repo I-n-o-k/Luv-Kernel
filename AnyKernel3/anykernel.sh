@@ -53,12 +53,11 @@ if [ -d "/system_root/system/" -a -d "/system_root/etc/" -a -e "/system_root/ini
    ui_print "- Disable Control Mask cuz useless for my kernel";
    ui_print "- Switch back to static frame rate";
    ui_print "- Fine Tuned Mitigation Freq and Temp";
-   ui_print "- Add Devfreq Boosting Driver";
    ui_print "- Reduce turn on display";
    ui_print "- fix performance back logs and memory corupt";
    ui_print "- New Custom Tuned Cpu Governor";
    ui_print "- Can't support thermal-engine (please dont use any thermal mod)";
-   ui_print "- Remove wireguard on kernel";
+   ui_print "- add wireguard on kernel";
    echo " " >> /tmp/recovery.log;
    echo "- Mounting /system_root in read-write mode..." >> /tmp/recovery.log;
    THE_ROOT="/system_root";

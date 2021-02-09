@@ -55,7 +55,7 @@ if [ -d "/system_root/system/" -a -d "/system_root/etc/" -a -e "/system_root/ini
    ui_print "- Switch Back To Static Frame Rate";
    ui_print "- Reduce Frame Rate Panel Into 60Hz";
    ui_print "- Reduce Turn On Display";
-   ui_print "- Swith To Extreme Mitigation";
+   ui_print "- Switch To Extreme Mitigation";
    ui_print "- Fix Performance Back Logs And Memory Corupt";
    ui_print "- New Custom Tuned Cpu Governor";
    ui_print "- Add Lasted Wireguard";

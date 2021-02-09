@@ -50,14 +50,16 @@ if [ -d "/system_root/system/" -a -d "/system_root/etc/" -a -e "/system_root/ini
    ui_print "- custom tuneble cpu governor and init.d supporting ";
    ui_print "- Dev : @inok53"
    ui_print "- Changelog";
+   ui_print "- Jack-fix Build";
    ui_print "- Disable Control Mask cuz useless for my kernel";
-   ui_print "- Switch back to static frame rate";
-   ui_print "- Fine Tuned Mitigation Freq and Temp";
-   ui_print "- Reduce turn on display";
-   ui_print "- fix performance back logs and memory corupt";
+   ui_print "- Switch Back To Static Frame Rate";
+   ui_print "- Reduce Frame Rate Panel Into 60Hz";
+   ui_print "- Reduce Turn On Display";
+   ui_print "- Swith To Extreme Mitigation";
+   ui_print "- Fix Performance Back Logs And Memory Corupt";
    ui_print "- New Custom Tuned Cpu Governor";
+   ui_print "- Add Lasted Wireguard";
    ui_print "- Can't support thermal-engine (please dont use any thermal mod)";
-   ui_print "- add wireguard on kernel";
    echo " " >> /tmp/recovery.log;
    echo "- Mounting /system_root in read-write mode..." >> /tmp/recovery.log;
    THE_ROOT="/system_root";
@@ -73,6 +75,8 @@ if [ -d "/system_root/system/" -a -d "/system_root/etc/" -a -e "/system_root/ini
    cd $THE_ROOT;
    sleep 1
    cd /system
+   rm -rf /bin/thermal-engine
+   rm -rf /vendor/bin/thermal-engine
    rm -rf /etc/thermal-engine.conf
    rm -rf /vendor/etc/thermal-engine.conf
 else

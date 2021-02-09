@@ -21,7 +21,7 @@ OUT_DIR=$OLDPWD/out
 Anykernel_DIR=$KERNEL_DIR/AnyKernel3/
 DATE=$(date +"%d%m%Y")
 TIME=$(date +"-%H.%M.%S")
-KERNEL_NAME="Luv-Kernel"
+KERNEL_NAME="Luv-Kernel-Ryujin"
 DEVICE="-kenzo-"
 FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$TIME"
 
